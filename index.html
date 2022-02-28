@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Del's</title>
-    <link rel="icon" type="image/x-icon" href="https://dellucifer.github.io/portfolio/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/favicon.jpeg">
 
     <style>
         * {
@@ -26,6 +26,7 @@
                 url("bg.jpg");
             background-position: center;
             background-size: cover;
+            background-attachment: fixed;
         }
 
         .center-text {
@@ -43,6 +44,17 @@
         #thm-badge{
             position: absolute;
             bottom: 10%;
+        }
+        .description{
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(255, 255, 255);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align-last: center;
+            font-size: 25px;
+        }
     </style>
 
 </head>
@@ -51,17 +63,21 @@
     <div id="particles-js">
         <div class="center-text">
             <h1>Hi I'm Del</h1>
+            <br><br>
         </div>
+        
         <div id="thm-badge">
             <script src="https://tryhackme.com/badge/501002"></script>
         </div>
+    </div>
+    <div class="description">
+        <p>I'm a Cybersecurity enthusiast seeking for more opportunies to showcase my talents and skills, achieved a Global ranking of 6k out of around 10L users on the platform <a href="https://tryhackme.com/p/priyanshu99285" style="color: greenyellow;">TryHackMe</a>. Along with all this, I am also a developer and had made various projects regarding Web and Cybersecurity.</p>
     </div>
 
     <!-- particles js files -->
 
     <script src="particles.js"></script>
     <script src="app.js"></script>
-
+    
 </body>
-
 </html>
